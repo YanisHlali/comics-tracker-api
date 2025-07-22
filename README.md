@@ -7,7 +7,7 @@ API REST pour explorer et suivre les comics Marvel, leurs événements, période
 
 ## 📦 Ce dépôt est lié au projet Comics Tracker (Next.js)
 
-Cette API alimente l'application web [Comics Tracker](https://github.com/YanisHlali/comics-tracker-dev), développée avec Next.js et TypeScript, permettant de visualiser, filtrer et explorer les comics Marvel par périodes, séries, issues, événements et éditions françaises.
+Cette API alimente l'application web [Comics Tracker](https://github.com/YanisHlali/comics-tracker), développée avec Next.js et TypeScript, permettant de visualiser, filtrer et explorer les comics Marvel par périodes, séries, issues, événements et éditions françaises.
 
 ### Fonctionnalités principales de l'application web
 
