@@ -3,6 +3,23 @@
 
 API REST pour explorer et suivre les comics Marvel, leurs événements, périodes, issues, auteurs et éditions françaises.
 
+---
+
+## 📦 Ce dépôt est lié au projet Comics Tracker (Next.js)
+
+Cette API alimente l'application web [Comics Tracker](https://github.com/YanisHlali/comics-tracker-dev), développée avec Next.js et TypeScript, permettant de visualiser, filtrer et explorer les comics Marvel par périodes, séries, issues, événements et éditions françaises.
+
+### Fonctionnalités principales de l'application web
+
+- **Navigation par périodes** : Parcours chronologique des comics Marvel.
+- **Liste des issues** : Visualisation détaillée des issues, avec filtres avancés (auteurs, titre, édition française, etc.).
+- **Séries** : Regroupement des issues par séries, avec recherche et statistiques de traduction.
+- **Événements** : Accès aux grands événements Marvel, avec catégorisation des issues principales et tie-ins.
+- **Éditions françaises** : Identification visuelle des issues traduites et accès aux informations d’édition.
+- **Comic Viewer** : Lecteur d’images optimisé pour desktop et mobile, avec navigation, zoom, et gestion des pages doubles.
+- **Filtres et recherche** : Filtres dynamiques pour affiner la recherche par titre, auteur, période, etc.
+- **Interface moderne** : UI responsive, dark mode, animations, et navigation fluide.
+
 ## Fonctionnalités principales
 
 - **Liste des périodes** : `/api/periods` pour obtenir toutes les périodes Marvel (Marvel Now, All-New All-Different, Ultimate Universe...)
@@ -43,10 +60,6 @@ Les données sont stockées en JSON dans `src/main/resources/data/` :
 - Liste des périodes : `GET /api/periods`
 - Liste des événements : `GET /api/events`
 - Filtrer les événements par période : `GET /api/events?periodName=marvel_now`
-
-## Contribuer
-
-Les contributions sont les bienvenues !
 
 ## Auteur
 
